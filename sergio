@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sergio Food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #fff7e6;
+            text-align: center;
+        }
+        header {
+            background: #e67e22;
+            color: white;
+            padding: 25px 10px;
+        }
+        section {
+            padding: 30px 15px;
+        }
+        .btn {
+            display: block;
+            margin: 15px auto;
+            padding: 15px;
+            width: 85%;
+            max-width: 320px;
+            background: #e67e22;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .whatsapp {
+            background: #25D366;
+        }
+        .menu {
+            background: #2c3e50;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 12px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🍔 Sergio Food</h1>
+    <p>Fast Food • Original Taste</p>
+</header>
+
+<section>
+    <h2>📞 Passer une commande</h2>
+
+    <a class="btn" href="tel:06221599313">
+        📞 Appeler 06221599313
+    </a>
+
+    <a class="btn whatsapp"
+       href="https://wa.me/2126221599313?text=Bonjour%20Sergio%20Food,%20je%20veux%20passer%20une%20commande"
+       target="_blank">
+        💬 Commander sur WhatsApp
+    </a>
+</section>
+
+<section>
+    <h2>📋 Notre Menu</h2>
+
+    <a class="btn menu"
+       href="https://sites.google.com/view/sergio-foodmaroc/accueil"
+       target="_blank">
+        Voir le menu
+    </a>
+</section>
+
+<section>
+    <h2>⏰ Horaires</h2>
+    <p>Tous les jours : 10h00 – 23h00</p>
+</section>
+
+<footer>
+    <p>© 2026 Sergio Food – Maroc</p>
+</footer>
+
+</body>
+</html>
